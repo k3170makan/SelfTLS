@@ -9,11 +9,12 @@ replicated with real world implementations.
 * Comlpetely ground up: no use of any pre-cooked math or crypto libraries
 
 ##Why this will "work":
+* Gain practical understanding of the attacks SSL/TLS has suffered from, I want to be able to actually exploit the Padding Oracles, RSA Exponentiation Side Channels, Memory Scraping attacks etc. 
 * There are no people who are naturally good at crypto, only people who have made enough mistakes. The project is designed as an engine 
 to manufacture as much as the same implementation flaws / mistakes that real world openssl and gnutls went through. If I make certain mistakes the chances are other people would have (in the past) or currently made the same mistakes too. 
 * The only way to get a working understanding of anything is to try to build it. Proof by construction!  
 * With a ground up implementation I can debug / edit and inspect the code with a much greater ease, there is no overhead suffered in
-learnign the documentation styles of the openssl / gnutls project
+learnign the documentation styles of the openssl / gnutls project.
 
 ### DISCLAIMER: 
 *If its not obvious already, this code is not be used in production, or for the communication of any actual secrets, 
