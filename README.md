@@ -9,8 +9,9 @@ replicated with real world implementations.
 * Comlpetely ground up: no use of any pre-cooked math or crypto libraries
 
 ##Why this will "work":
-* There are no people who are naturally good at crypto, only people who have made enough mistakes, this project is designed as an engine 
-to manufacture as much as the same implementation flaws / mistakes that real world openssl and gnutls went through
+* There are no people who are naturally good at crypto, only people who have made enough mistakes. The project is designed as an engine 
+to manufacture as much as the same implementation flaws / mistakes that real world openssl and gnutls went through. If I make certain mistakes the chances are other people would have (in the past) or currently made the same mistakes too. 
+* The only way to get a working understanding of anything is to try to build it. Proof by construction!  
 * With a ground up implementation I can debug / edit and inspect the code with a much greater ease, there is no overhead suffered in
 learnign the documentation styles of the openssl / gnutls project
 
