@@ -1,5 +1,6 @@
 # SelfTLS
-A home grown ground up implementation of TLS in order to understand all the cryptography involved in operating a secure channel as well
+A home grown ground up implementation of TLS heavily inspired by Implementing SSL/TLS by Joshua Davies (https://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416 ). 
+This implementaion is build as  an exercise to understand all the cryptography involved in operating a secure channel as well
 as the attacks that discovered over the years. The goal is to provide an open test bed to "play test" practical attacks that can be 
 replicated with real world implementations. 
 
